@@ -163,5 +163,22 @@ text-align: center;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
 }
+/* feature part */
+.feature-part{
+    display: flex;
+    align-items: center;
 
+}
+.feature-content{
+    text-align: right;
+    margin-right: 15%;
+}
+.second-image{
+    width: 320px;
+    padding: 20px 0;
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+
+}
 
