@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+section{
+    padding: 100px 0;
+
+}
+h1{
+    font-size: 80px;
+    color: #534C64;
+}
+h2{
+    font-size: 48px;
+    color: #534C64;
+}
+p{
+    font-size: 18px;
+    color: #534C64;
+}
+span{
+   color: #FF42A5;
+
+}
+
+
+nav {
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+
+  
+}
+
+.nav-title {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+.menu-items li{
+    margin-right: 15px;
+}
+
+.folow-us{
+    display: flex;
+    align-items: center;
+}
+.folow-us a{
+    margin-left: 15px;
+}
+ul >li{
+    list-style-type: none;
+}
+.folow-us{
+    padding: 10px 20px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    
+}
+.folow-us a i {
+    font-size: 25px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color: black;
+}
+.folow-us p{
+    margin: 0;
+}
+/* Banner section here */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+  
+}
+.banner-info{
+    background-image: url(images/Group\ 14.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+}
+/* video cart */
+.section-title{
+    text-align: center;
+}
+.section-title h2,.section-title p{
+    margin: 0;
+}
+.video-cart{
+    position: relative;
+    padding: 15px;
+    border-radius: 18px;
+
+}
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: black;
+    border: 18px;
+    border: 2px solid transparent;
+}
+.video-cart:hover .overlay{
+    opacity: 0.8;
+    border: 2px solid #FF42A5 ;
+
+}
+.icon{
+color: white;
+font-size: 50px;
+border: 1px solid white;
+padding: 10px;
+position: absolute;
+border-radius: 50%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+.cart-des{
+    text-align: left;
+    padding: 20px 5px;
+    margin: 0;
+
+}
+.video-cart-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+
