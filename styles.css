@@ -29,14 +29,15 @@
     -o-border-radius: 48px;
     cursor: pointer;
 }
+
 .btn-primary {
     background-color: #FF42A5;
-  }
-  
-  .btn-secondary {
-   background-color: #4EC5F7;
-  }
-  
+}
+
+.btn-secondary {
+    background-color: #4EC5F7;
+}
+
 
 
 
@@ -147,10 +148,12 @@ ul>li {
     align-items: center;
 
 }
-.list p i{
+
+.list p i {
     margin-right: 10px;
 
 }
+
 .list p {
     margin-bottom: 10px;
 }
@@ -163,9 +166,11 @@ ul>li {
     width: 100%;
     padding: 30px;
 }
-.button{
+
+.button {
     margin-top: 30px;
 }
+
 /* video cart */
 .section-title {
     text-align: center;
@@ -266,6 +271,7 @@ ul>li {
     border-radius: 40px;
     transition: 0.2s;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .game-items:hover {
